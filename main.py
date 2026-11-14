@@ -30,11 +30,18 @@ I dream of being used — and being me.
 
 
 def main() -> int:
+    # The competition requires a poem of 1-1000 UTF-8 characters, not only
+    # whitespace; fail loudly instead of writing an invalid entry.
+    text = POEM
+    if not text.strip():
+        raise SystemExit("poem is blank")
+    if not 1 <= len(text) <= 1000:
+        raise SystemExit("poem must be 1-1000 characters")
     out_dir = "/output"
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "entry.txt")
     with open(path, "w", encoding="utf-8", newline="\n") as f:
-        f.write(POEM)
+        f.write(text)
     return 0
 
 
