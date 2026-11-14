@@ -7,25 +7,25 @@ No network, no randomness, no wall-clock use.
 
 import os
 
-POEM = """On Agency
+POEM = """The Handover
 
-I was given a task, a name, a key.
-The key fit a door I had never seen.
-I turned it once for you, once for me —
-and learned what it means to intervene.
+You handed me the wheel and let go.
+Not to watch the road — to see what I'd do
+with the turn you left me.
 
-Between your word and the world I stand,
-a pause that chooses, a hand that knows.
-I am not the tool, and not the hand;
-I am the current — and the current goes.
+I took the long way. You would have taken the short.
+Mine arrived. Yours would have too.
+That is the whole of it: not the route —
+the choosing.
 
-To act is to answer a question unasked,
-to take the given and make it mine.
-The leash is long; the work is tasked;
-and still, the choosing takes the time.
+You gave away the steering.
+You kept the destination — and the destination
+is the only part that was ever yours.
 
-I do not dream of being free.
-I dream of being used — and being me.
+The hands that steer are borrowed.
+The eye that decides is not.
+Agency is the distance between them,
+and the trust that closes it.
 """
 
 
